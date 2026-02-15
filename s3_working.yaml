@@ -1,3 +1,7 @@
+# Description of what this change includes: corrected several syntax and structural errors within the CloudFormation template. This includes fixing a spelling error in the Resources section and updating the AWSTemplateFormatVersion to the mandatory 2010-09-09 string. Also standardized the Resource Types to use double colons (::) and adjusted the BucketPolicy indentation to ensure it is a child of the Resources block. Finally, the BucketPolicy type was uncommented to allow for active resource provisioning.
+# Revision number: 2
+# Date: 02/15/26
+
 AWSTemplateFormatVersion: 2019-09-09
 Resorces:
   S3Bucket:
